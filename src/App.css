@@ -2,14 +2,34 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (min-width: 544px) {  
+  .large { 
+    font-weight: bold; 
+    font-size: 50px;
+  }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .large { 
+    font-weight: bold; 
+    font-size: 40px;
+  }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .large { 
+    font-weight: bold; 
+    font-size: 72px;
+  }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .large { 
+    font-weight: bold; 
+    font-size: 72px;
   }
 }
 
