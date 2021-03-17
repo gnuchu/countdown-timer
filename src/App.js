@@ -40,9 +40,10 @@ function App() {
   return (
     <div>
       <div className="row">
-        <div className="large">🏴󠁧󠁢󠁳󠁣󠁴󠁿</div>
-        <div className="large">🍻</div>
-        <div className="large">🎉</div>
+        <div className="col large">🏴󠁧󠁢󠁳󠁣󠁴󠁿</div>
+        <div className="col large">🍻</div>
+        <div className="col large">🍾</div>
+        <div className="col large">🎉</div>
       </div>
       <div className="row">
         <div className="col large">{daysCount}</div>
