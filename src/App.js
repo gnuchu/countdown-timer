@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 
-const targetDate = new Date("2021-04-26T12:00:00Z");
+const targetDate = new Date("2021-04-26T11:00:00Z");
 
 function App() {
   const [daysCount, setDaysCount] = useState(0);
